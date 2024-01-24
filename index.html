@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="tool">
+      <input id="color" type="color" />
+      <button id="eraser"><i class="bx bxs-eraser"></i></button>
+      <button id="decrease">-</button>
+      <span id="size">5</span>
+      <button id="increase">+</button>
+      <a id="save" download="tenfile.png"><i class="bx bxs-save"></i></a>
+
+      <button id="clear"><i class="bx bx-window-close"></i></button>
+    </div>
+    <div id="canvasWrap"><canvas width="600" height="600"></canvas></div>
+  </body>
+  <script src="./app.js"></script>
+</html>
